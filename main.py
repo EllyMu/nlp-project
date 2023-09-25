@@ -8,7 +8,6 @@ from morphy import get_nouns, normalize
 def load(path: str, encoding: str = "utf-8") -> str:
     with open(path, encoding=encoding, errors="ignore") as f:
         data = f.read()
-
     return data
 
 
